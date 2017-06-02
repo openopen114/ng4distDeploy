@@ -1,6 +1,6 @@
 webpackJsonp([1,5],{
 
-/***/ 102:
+/***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36,12 +36,11 @@ AdvantageComponent = __decorate([
 
 /***/ }),
 
-/***/ 103:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parm_service__ = __webpack_require__(33);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -53,17 +52,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
 var AppComponent = (function () {
-    function AppComponent(ParmService) {
-        this.ParmService = ParmService;
+    function AppComponent() {
         this.title = 'app works!';
     }
-    AppComponent.prototype.ngOnInit = function () {
-        console.log(this.ParmService.success());
-        console.log(this.ParmService.imgPath);
-        console.log(this.ParmService.getImgPath());
-    };
     return AppComponent;
 }());
 AppComponent = __decorate([
@@ -72,37 +64,36 @@ AppComponent = __decorate([
         template: __webpack_require__(189),
         styles: [__webpack_require__(174)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__parm_service__["a" /* ParmService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__parm_service__["a" /* ParmService */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [])
 ], AppComponent);
 
-var _a;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
 
-/***/ 104:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_materialize__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_router__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__parm_service__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__nav_bar_nav_bar_component__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__hero_bg_hero_bg_component__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__hero_slogan_hero_slogan_component__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__contact_contact_component__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_router__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__parm_service__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__nav_bar_nav_bar_component__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__hero_bg_hero_bg_component__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__hero_slogan_hero_slogan_component__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__contact_contact_component__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__project_project_component__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__main_main_component__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__our_services_our_services_component__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__our_team_our_team_component__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__main_main_component__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__our_services_our_services_component__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__our_team_our_team_component__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__types_types_component__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__advantage_advantage_component__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__footer_footer_component__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__advantage_advantage_component__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__footer_footer_component__ = __webpack_require__(105);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -183,7 +174,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 105:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -219,7 +210,7 @@ ContactComponent = __decorate([
 
 /***/ }),
 
-/***/ 106:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -255,12 +246,11 @@ FooterComponent = __decorate([
 
 /***/ }),
 
-/***/ 107:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parm_service__ = __webpack_require__(33);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeroBGComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -272,15 +262,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
 var HeroBGComponent = (function () {
-    function HeroBGComponent(ParmService) {
-        this.ParmService = ParmService;
-        this.imgPath = "";
+    function HeroBGComponent() {
     }
     HeroBGComponent.prototype.ngOnInit = function () {
-        this.imgPath = this.ParmService.getImgPath();
-        console.log("this.imgpath:" + this.imgPath);
     };
     return HeroBGComponent;
 }());
@@ -290,15 +275,14 @@ HeroBGComponent = __decorate([
         template: __webpack_require__(192),
         styles: [__webpack_require__(177)]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__parm_service__["a" /* ParmService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__parm_service__["a" /* ParmService */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [])
 ], HeroBGComponent);
 
-var _a;
 //# sourceMappingURL=hero-bg.component.js.map
 
 /***/ }),
 
-/***/ 108:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -334,7 +318,7 @@ HeroSloganComponent = __decorate([
 
 /***/ }),
 
-/***/ 109:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -370,7 +354,7 @@ MainComponent = __decorate([
 
 /***/ }),
 
-/***/ 110:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -417,7 +401,7 @@ NavBarComponent = __decorate([
 
 /***/ }),
 
-/***/ 111:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -453,7 +437,7 @@ OurServicesComponent = __decorate([
 
 /***/ }),
 
-/***/ 112:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -486,6 +470,52 @@ OurTeamComponent = __decorate([
 ], OurTeamComponent);
 
 //# sourceMappingURL=our-team.component.js.map
+
+/***/ }),
+
+/***/ 112:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParmService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ParmService = (function () {
+    function ParmService() {
+        this.obj = {
+            id: "1",
+            name: "open",
+            rollno: "2233"
+        };
+        this.ngBuildMode = true; // set for dev mode
+        this.imgPath = "../../assets/images/";
+    }
+    ParmService.prototype.getImgPath = function () {
+        // export mode
+        // ng build --prod
+        if (this.ngBuildMode) {
+            this.imgPath = "./assets/images/";
+        }
+        return this.imgPath;
+    };
+    ParmService.prototype.success = function () { return "Successful"; };
+    return ParmService;
+}());
+ParmService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __metadata("design:paramtypes", [])
+], ParmService);
+
+//# sourceMappingURL=parm.service.js.map
 
 /***/ }),
 
@@ -846,7 +876,7 @@ module.exports = "\n <!-- footer --> \n <footer class=\"page-footer\">\n  <div c
 /***/ 192:
 /***/ (function(module, exports) {
 
-module.exports = " \n<!-- Hero Background -->\n \n\n<div class=\"parallax-container HeroBG\">\n\t<div id=\"HeroBGImg\" materialize=\"parallax\" class=\"parallax\">\n\t\t<img [src]= \"imgPath + 'bg/HeroBG2.jpg'\">\n\t</div>\n</div> \n<!--  class=\"wow bounceInUp\" -->\n<!-- Hero Slogan -->\n<div class=\"row Slogan \">\n\t<!-- XYSOLAR Name -->\n\t<div class=\"col s12 m12 l12 \">\n\t\t<h2 class=\"center-align\">向陽能源科技有限公司</h2>\n\t</div>\n\n\t<HR>\n\n\t<!-- Slogan -->\n\t<div class=\"col s12 m12 l12 \">\n\t\t<h4 class=\"center-align\">光電領導廠商,太陽能發電最好的選擇!</h4>\n\t</div>\n</div>\n\n\n<!--  phone number chip -->\n<div class=\"row phoneNumberChip \" id=\"chip\">\n\t<div class=\"col s12 m12 l12 center-align\"> \n\t\t<div class=\"chip\">\n\t\t\t<img [src]= \"imgPath + 'bg/phone_icon.png'\">\n\t\t    <!-- <img src=\"../../assets/images/bg/\" alt=\"Contact Person\"> -->\n\t\t    免付費咨詢專線：0800-255188\n\t  \t</div>\n\t</div>\n</div>"
+module.exports = " \n<!-- Hero Background -->\n \n\n<div class=\"parallax-container HeroBG\">\n\t<div id=\"HeroBGImg\" materialize=\"parallax\" class=\"parallax\"> \n\t\t<img src=\"./assets/images/bg/HeroBG2.jpg\" alt=\"\">\n\t</div>\n</div> \n<!--  class=\"wow bounceInUp\" -->\n<!-- Hero Slogan -->\n<div class=\"row Slogan \">\n\t<!-- XYSOLAR Name -->\n\t<div class=\"col s12 m12 l12 \">\n\t\t<h2 class=\"center-align\">向陽能源科技有限公司</h2>\n\t</div>\n\n\t<HR>\n\n\t<!-- Slogan -->\n\t<div class=\"col s12 m12 l12 \">\n\t\t<h4 class=\"center-align\">光電領導廠商,太陽能發電最好的選擇!</h4>\n\t</div>\n</div>\n\n\n<!--  phone number chip -->\n<div class=\"row phoneNumberChip \" id=\"chip\">\n\t<div class=\"col s12 m12 l12 center-align\"> \n\t\t<div class=\"chip\">\n\t\t    <img src=\"./assets/images/bg/phone_icon.png\" alt=\"Contact Person\">\n\t\t    免付費咨詢專線：0800-255188\n\t  \t</div>\n\t</div>\n</div>"
 
 /***/ }),
 
@@ -867,21 +897,21 @@ module.exports = "\n<app-hero-bg></app-hero-bg>\n<app-our-services></app-our-ser
 /***/ 195:
 /***/ (function(module, exports) {
 
-module.exports = " \n\n  <!-- Nav Bar -->\n\t\n\t<nav>\n\t\t<div materilaize=\"nav-wrapper\" class=\"nav-wrapper\">\n\t\t\t<a routerLink=\"/\" class=\"brand-logo\">\n\t\t\t\t<img src=\"assets/images/logo/XYSOLAR-logo.png\" alt=\"\">  \n\t\t\t</a> \n\t\t\t<ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\n\t\t\t\t<li><a routerLink=\"project\">工程實績</a><span class=\"underline\"></span></li>\n\t\t\t\t<li><a routerLink=\"contact\">聯絡我們</a><span class=\"underline\"></span></li>\n\t\t\t</ul>\n\n\n\t\t\t\n\t \n\n\t\t\t<!-- slid Nav -->\n\t\t\t<ul id=\"sidenav\" class=\"side-nav\" materialize=\"sideNav\" [materializeParams]=\"sidenavParams\" [materializeActions]=\"sidenavActions\" data-activates=\"sidenav\">\n\t\t\t\t<li>\n\t\t\t\t\t<div class=\"userView\">\n\t\t\t\t\t\t<div class=\"background\">\n\t\t\t\t\t\t\t<img src=\"../../assets/images/bg/sideNavBG.jpg\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a routerLink=\"/\"><img class=\"circle\" src=\"../../assets/images/logo/sideNavLogo.png\"></a>\n\t\t\t\t\t\n\t\t\t\t\t\t<a routerLink=\"/\"><span class=\"white-text name\">XYSOLAR</span></a>\n\n\t\t\t\t\t\t<a routerLink=\"/\"><span class=\"white-text email\">向陽能源科技有限公司</span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/\"><i class=\"material-icons\">domain</i>關於向陽</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/project\"><i class=\"material-icons\">widgets</i>工程實績</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/contact\"><i class=\"material-icons\">bubble_chart</i>聯絡我們</a>\n\t\t\t\t</li> \n\t\t\t</ul>\n\t\t  \t\n\t\t  \t<a routerLink=\"/\" data-activates=\"slide-out\" class=\"button-collapse\" (click)=\"showSidenav()\"><i class=\"material-icons\">menu</i></a>\n\t\t  \n\t\t\t<!-- End of slid Nav -->\n\t   \n\n\t\t</div>\n\t</nav>\n\n "
+module.exports = " \n\n  <!-- Nav Bar -->\n\t\n\t<nav>\n\t\t<div materilaize=\"nav-wrapper\" class=\"nav-wrapper\">\n\t\t\t<a routerLink=\"/\" class=\"brand-logo\">\n\t\t\t\t<img src=\"assets/images/logo/XYSOLAR-logo.png\" alt=\"\">  \n\t\t\t</a> \n\t\t\t<ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">\n\t\t\t\t<li><a routerLink=\"project\">工程實績</a><span class=\"underline\"></span></li>\n\t\t\t\t<li><a routerLink=\"contact\">聯絡我們</a><span class=\"underline\"></span></li>\n\t\t\t</ul>\n\n\n\t\t\t\n\t \n\n\t\t\t<!-- slid Nav -->\n\t\t\t<ul id=\"sidenav\" class=\"side-nav\" materialize=\"sideNav\" [materializeParams]=\"sidenavParams\" [materializeActions]=\"sidenavActions\" data-activates=\"sidenav\">\n\t\t\t\t<li>\n\t\t\t\t\t<div class=\"userView\">\n\t\t\t\t\t\t<div class=\"background\">\n\t\t\t\t\t\t\t<img src=\"./assets/images/bg/sideNavBG.jpg\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a routerLink=\"/\"><img class=\"circle\" src=\"./assets/images/logo/sideNavLogo.png\"></a>\n\t\t\t\t\t\n\t\t\t\t\t\t<a routerLink=\"/\"><span class=\"white-text name\">XYSOLAR</span></a>\n\n\t\t\t\t\t\t<a routerLink=\"/\"><span class=\"white-text email\">向陽能源科技有限公司</span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/\"><i class=\"material-icons\">domain</i>關於向陽</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/project\"><i class=\"material-icons\">widgets</i>工程實績</a>\n\t\t\t\t</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a class=\"waves-effect\" routerLink=\"/contact\"><i class=\"material-icons\">bubble_chart</i>聯絡我們</a>\n\t\t\t\t</li> \n\t\t\t</ul>\n\t\t  \t\n\t\t  \t<a routerLink=\"/\" data-activates=\"slide-out\" class=\"button-collapse\" (click)=\"showSidenav()\"><i class=\"material-icons\">menu</i></a>\n\t\t  \n\t\t\t<!-- End of slid Nav -->\n\t   \n\n\t\t</div>\n\t</nav>\n\n "
 
 /***/ }),
 
 /***/ 196:
 /***/ (function(module, exports) {
 
-module.exports = "\t<!-- Our Service Area-->\n\t<div class=\"row\" id=\"ourServicesArea\">\n\t\t<!-- our service -->\n\t\t<div class=\"col s12 m4 l4 ourServicesLeft\">\n\t\t\t<!-- title -->\n\t\t\t<div class=\"srvTitle\">\n\t\t\t\t<h2>OUR</h2>\n\t\t\t\t<h2>SERVICES</h2>\n\t\t\t</div>\n\n\t\t\t<!-- content -->\n\t\t\t<div class=\"srvContent\">\n\t\t\t\t<p>\n\t\t\t\t\t向陽能源科技有限公司成立於2010年5月,總部位於嘉義縣朴子市，擁有豐富 的太陽能發電系統實務經驗，並致力於高品質的太陽能發電系統工程，嚴格把關品質與服務。 \n\t\t\t\t</p>\n\t\t\t</div>\n\n\t\t</div>\n\n\t\t<!-- service detail -->\n\t\t<div class=\"col s12 m8 l8 ourServicesRight\">\n\t\t\t <div class=\"srvDetailContent z-depth-2\">\n\t\t\t \t<div class=\"row\">\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"../../assets/images/services_icons/icon_build.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>電廠建置</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>向陽能源提供太陽能發電系統分析、規劃、設計、施工、測試、監控及長期維護的全方⾯面服務,劃分專業施工單位與維修單位,想輔相成,相互促進,提供客戶最佳的施工品質以確保系統穩定運作。</p>\n\t\t\t\t\t\t</div>\n\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"../../assets/images/services_icons/icon_ maintenant.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>維運清洗</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>向陽以高科技的儀器檢查設備,豐富的檢測經驗及專業的技術工程師,提供定期與不定\n\t\t\t\t\t\t\t期追蹤、清洗、保養服務。我們本著永續經營的理念,堅持優良施工品質,整體規劃及專業維運保固服務,讓客戶安心地享受陽光所帶來的財富。</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"../../assets/images/services_icons/icon_sale.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>電廠買賣</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>所謂的電廠買賣，是將現有正在運轉的電廠出售給投資者。投資者可以透過每期的電費單去評估電廠是否運作良好，從而選擇是否購買電廠。向陽能源亦提供電廠「發電量保證」，使得投資更加穩定、安全。\n    \t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"../../assets/images/services_icons/icon_rent.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>屋頂出租</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>透過將住家、工廠、畜舍等等的閒置屋頂出租給有投資意願的投資人建設太陽光電發電系統。屋主可獲得穩定收租、室內降溫、屋頂防水等好處,投資方也能享有投資電廠的高報酬率，達到「雙贏」的局面。</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t</div>\n\t\t\t </div>\n\n\t\t</div>\n\t</div>\n\t<!-- End of Our Service Area-->\n "
+module.exports = "\t<!-- Our Service Area-->\n\t<div class=\"row\" id=\"ourServicesArea\">\n\t\t<!-- our service -->\n\t\t<div class=\"col s12 m4 l4 ourServicesLeft\">\n\t\t\t<!-- title -->\n\t\t\t<div class=\"srvTitle\">\n\t\t\t\t<h2>OUR</h2>\n\t\t\t\t<h2>SERVICES</h2>\n\t\t\t</div>\n\n\t\t\t<!-- content -->\n\t\t\t<div class=\"srvContent\">\n\t\t\t\t<p>\n\t\t\t\t\t向陽能源科技有限公司成立於2010年5月,總部位於嘉義縣朴子市，擁有豐富 的太陽能發電系統實務經驗，並致力於高品質的太陽能發電系統工程，嚴格把關品質與服務。 \n\t\t\t\t</p>\n\t\t\t</div>\n\n\t\t</div>\n\n\t\t<!-- service detail -->\n\t\t<div class=\"col s12 m8 l8 ourServicesRight\">\n\t\t\t <div class=\"srvDetailContent z-depth-2\">\n\t\t\t \t<div class=\"row\">\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"./assets/images/services_icons/icon_build.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>電廠建置</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>向陽能源提供太陽能發電系統分析、規劃、設計、施工、測試、監控及長期維護的全方⾯面服務,劃分專業施工單位與維修單位,想輔相成,相互促進,提供客戶最佳的施工品質以確保系統穩定運作。</p>\n\t\t\t\t\t\t</div>\n\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"./assets/images/services_icons/icon_ maintenant.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>維運清洗</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>向陽以高科技的儀器檢查設備,豐富的檢測經驗及專業的技術工程師,提供定期與不定\n\t\t\t\t\t\t\t期追蹤、清洗、保養服務。我們本著永續經營的理念,堅持優良施工品質,整體規劃及專業維運保固服務,讓客戶安心地享受陽光所帶來的財富。</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"./assets/images/services_icons/icon_sale.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>電廠買賣</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>所謂的電廠買賣，是將現有正在運轉的電廠出售給投資者。投資者可以透過每期的電費單去評估電廠是否運作良好，從而選擇是否購買電廠。向陽能源亦提供電廠「發電量保證」，使得投資更加穩定、安全。\n    \t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t\t<div class=\"col s12 m6 l6\">\n\t\t\t \t\t\t<!-- icon -->\n\t\t\t \t\t\t<div class=\"srvIcon\">\n\t\t\t \t\t\t\t<img src=\"./assets/images/services_icons/icon_rent.png\" alt=\"\">\n\t\t\t \t\t\t</div>\n\n\n\t\t\t \t\t\t<!--  srv Title-->\n\t\t\t\t\t\t<div class=\"srvTitle\">\n\t\t\t\t\t\t\t<h1>屋頂出租</h1>\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t<!-- srv description -->\n\t\t\t\t\t\t<div class=\"srvDescription\">\n\t\t\t\t\t\t\t<p>透過將住家、工廠、畜舍等等的閒置屋頂出租給有投資意願的投資人建設太陽光電發電系統。屋主可獲得穩定收租、室內降溫、屋頂防水等好處,投資方也能享有投資電廠的高報酬率，達到「雙贏」的局面。</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t \t\t</div>\n\t\t\t \t</div>\n\t\t\t </div>\n\n\t\t</div>\n\t</div>\n\t<!-- End of Our Service Area-->\n "
 
 /***/ }),
 
 /***/ 197:
 /***/ (function(module, exports) {
 
-module.exports = "\n \t<!-- Our Team -->\n\n \t<div class=\"row OurTeam\">\n \t\t<!-- Left -->\n \t\t<div class=\"col s12 m4 l4 OurTeamLeft\">\n \t\t\t<!-- title -->\n\t\t\t<div class=\"srvTitle\">\n\t\t\t\t<h2>一站式</h2>\n\t\t\t\t<h2>專業團隊服務</h2>\n\t\t\t</div>\n\n\t\t\t<!-- content -->\n\t\t\t<div class=\"srvContent\">\n\t\t\t\t<p>\n\t\t\t\t\t垂直整合一站式服務!具備設計、規劃、送件、施工及維運專業的團隊,提供客戶最高品質的太陽光電發電系統。\n\t\t\t\t</p>\n\t\t\t</div>\n \t\t\t\n \t\t</div>\n\n\n \t\t<!-- Right -->\n \t\t<div class=\"col s8 m8 l8 OurTeamRight\">\n\n \t\t\t<div class=\"teamCardArea\"> \n\n \t\t\t\n \t\t\t<div class=\"col s6 m4 l4\">\n\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/design.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">電廠設計</span>\n\t\t\t\t    </div>\n\t\t\t\t</div>\n \t\t\t</div>\n \t\t\t\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/documents.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">文件送審</span> \n\n\t\t\t\t    </div> \n\n\t\t\t    </div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/buildeng.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">工程施工</span> \n\t\t\t        </div> \n\t\t\t\t</div> \n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/maintant.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">維運保養</span> \n\t\t\t\t    </div> \n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/clear.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">模組清洗</span> \n\t\t\t\t    </div>\n\t\t\t\t    <!-- <div class=\"card-reveal\">\n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">模組清洗<i class=\"material-icons right\">close</i></span>\n\t\t\t\t      <p>Here is some more information about this product that is only revealed once clicked on.</p>\n\t\t\t\t    </div> --> \n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"../../assets/images/OurTeam/sys_monitor.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">遠端監控</span>\n\t\t\t\t      <!-- <i class=\"material-icons right\">more_vert</i></span>  -->\n\n\t\t\t\t    </div>\n\t\t\t\t    <!-- <div class=\"card-reveal\">\n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">遠端監控<i class=\"material-icons right\">close</i></span>\n\t\t\t\t      <p>Here is some more information about this product that is only revealed once clicked on.</p>\n\t\t\t\t    </div> -->\n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t</div>\n \t\t\t<!-- End of team card area -->\n \t\t</div>\n \t</div>\n \t<!-- End of Our Team -->\n "
+module.exports = "\n \t<!-- Our Team -->\n\n \t<div class=\"row OurTeam\">\n \t\t<!-- Left -->\n \t\t<div class=\"col s12 m4 l4 OurTeamLeft\">\n \t\t\t<!-- title -->\n\t\t\t<div class=\"srvTitle\">\n\t\t\t\t<h2>一站式</h2>\n\t\t\t\t<h2>專業團隊服務</h2>\n\t\t\t</div>\n\n\t\t\t<!-- content -->\n\t\t\t<div class=\"srvContent\">\n\t\t\t\t<p>\n\t\t\t\t\t垂直整合一站式服務!具備設計、規劃、送件、施工及維運專業的團隊,提供客戶最高品質的太陽光電發電系統。\n\t\t\t\t</p>\n\t\t\t</div>\n \t\t\t\n \t\t</div>\n\n\n \t\t<!-- Right -->\n \t\t<div class=\"col s8 m8 l8 OurTeamRight\">\n\n \t\t\t<div class=\"teamCardArea\"> \n\n \t\t\t\n \t\t\t<div class=\"col s6 m4 l4\">\n\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/design.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">電廠設計</span>\n\t\t\t\t    </div>\n\t\t\t\t</div>\n \t\t\t</div>\n \t\t\t\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/documents.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">文件送審</span> \n\n\t\t\t\t    </div> \n\n\t\t\t    </div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/buildeng.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">工程施工</span> \n\t\t\t        </div> \n\t\t\t\t</div> \n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/maintant.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">維運保養</span> \n\t\t\t\t    </div> \n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/clear.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">模組清洗</span> \n\t\t\t\t    </div>\n\t\t\t\t    <!-- <div class=\"card-reveal\">\n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">模組清洗<i class=\"material-icons right\">close</i></span>\n\t\t\t\t      <p>Here is some more information about this product that is only revealed once clicked on.</p>\n\t\t\t\t    </div> --> \n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t<div class=\"col s6 m4 l4\">\n \t\t\t\n\t\t\t\t<div class=\"card\">\n\t\t\t\t    <div class=\"card-image  waves-block waves-light\">\n\t\t\t\t      <img class=\"activator\" src=\"./assets/images/OurTeam/sys_monitor.jpg\">\n\t\t\t\t    </div>\n\t\t\t\t    <div class=\"card-content\">\n\t\t\t\t     \n\t\t\t\t      <span class=\"card-title  grey-text text-darken-4\">遠端監控</span>\n\t\t\t\t      <!-- <i class=\"material-icons right\">more_vert</i></span>  -->\n\n\t\t\t\t    </div>\n\t\t\t\t    <!-- <div class=\"card-reveal\">\n\t\t\t\t      <span class=\"card-title grey-text text-darken-4\">遠端監控<i class=\"material-icons right\">close</i></span>\n\t\t\t\t      <p>Here is some more information about this product that is only revealed once clicked on.</p>\n\t\t\t\t    </div> -->\n\t\t\t\t</div>\n\n \t\t\t</div>\n\n \t\t\t</div>\n \t\t\t<!-- End of team card area -->\n \t\t</div>\n \t</div>\n \t<!-- End of Our Team -->\n "
 
 /***/ }),
 
@@ -895,65 +925,19 @@ module.exports = "<p>\n  project works!\n</p>\n"
 /***/ 199:
 /***/ (function(module, exports) {
 
-module.exports = "\n \t<!-- Business Types -->\n \t<!-- type1 -->\n\t<div class=\"parallax-container BusinessTypes\" id=\"TypesPallarex\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"../../assets/images/parallex/1.jpg\"></div>\n\t</div>\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">自建電廠</h2>\n\t\t\t<p class=\"TypeText\">自建電廠係指在自有屋頂上興建太陽能發電系統，包括住家、工廠、農舍...等等的閒置屋頂。自建電廠不但能與建築物結合、不佔去多餘空間，還具有遮陽、室內降溫、屋頂防水等好處。</p>\n\t\t</div>\n\t</div>\n\n\t<!-- type2 -->\n\t<div class=\"parallax-container BusinessTypes\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"../../assets/images/parallex/2.JPG\"></div>\n\t</div>\n\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">屋頂出租</h2>\n\t\t\t<p class=\"TypeText\">透過將閒置屋頂出租給有投資意願的投資人建設太陽光電發電系統。屋主可獲得穩定收租，室內降溫、屋頂防水等好處，投資方也能享有投資電廠的高報酬率，達到「雙贏」的局面。</p>\n\t\t</div>\n\t</div>\n\n\t<!-- type3 -->\n\t<div class=\"parallax-container BusinessTypes\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"../../assets/images/parallex/3.jpg\"></div>\n\t</div>\n\n\t<!-- type4 -->\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">購買電廠</h2>\n\t\t\t<p class=\"TypeText\">購買電廠係指直接購買已運轉的太陽光電發電系統，投資人可透過電廠每期電費單評估電廠發電效率與投資報酬率。</p>\n\t\t</div>\n\t</div>\n\n \n <!-- End of Business Types -->  \n\n"
+module.exports = "\n \t<!-- Business Types -->\n \t<!-- type1 -->\n\t<div class=\"parallax-container BusinessTypes\" id=\"TypesPallarex\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"./assets/images/parallex/1.jpg\"></div>\n\t</div>\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">自建電廠</h2>\n\t\t\t<p class=\"TypeText\">自建電廠係指在自有屋頂上興建太陽能發電系統，包括住家、工廠、農舍...等等的閒置屋頂。自建電廠不但能與建築物結合、不佔去多餘空間，還具有遮陽、室內降溫、屋頂防水等好處。</p>\n\t\t</div>\n\t</div>\n\n\t<!-- type2 -->\n\t<div class=\"parallax-container BusinessTypes\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"./assets/images/parallex/2.JPG\"></div>\n\t</div>\n\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">屋頂出租</h2>\n\t\t\t<p class=\"TypeText\">透過將閒置屋頂出租給有投資意願的投資人建設太陽光電發電系統。屋主可獲得穩定收租，室內降溫、屋頂防水等好處，投資方也能享有投資電廠的高報酬率，達到「雙贏」的局面。</p>\n\t\t</div>\n\t</div>\n\n\t<!-- type3 -->\n\t<div class=\"parallax-container BusinessTypes\">\n\t\t<div materialize=\"parallax\" class=\"parallax \"><img src=\"./assets/images/parallex/3.jpg\"></div>\n\t</div>\n\n\t<!-- type4 -->\n\t<div class=\"section white\">\n\t\t<div class=\"row container\">\n\t\t\t<h2 class=\"header TypeTitle\">購買電廠</h2>\n\t\t\t<p class=\"TypeText\">購買電廠係指直接購買已運轉的太陽光電發電系統，投資人可透過電廠每期電費單評估電廠發電效率與投資報酬率。</p>\n\t\t</div>\n\t</div>\n\n \n <!-- End of Business Types -->  \n\n"
 
 /***/ }),
 
 /***/ 240:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(90);
+module.exports = __webpack_require__(89);
 
 
 /***/ }),
 
-/***/ 33:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ParmService; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var ParmService = (function () {
-    function ParmService() {
-        this.obj = {
-            id: "1",
-            name: "open",
-            rollno: "2233"
-        };
-        this.ngBuildMode = true; // set for dev mode
-        this.imgPath = "../../assets/images/";
-    }
-    ParmService.prototype.getImgPath = function () {
-        // export mode
-        // ng build --prod
-        if (this.ngBuildMode) {
-            this.imgPath = "./assets/images/";
-        }
-        return this.imgPath;
-    };
-    ParmService.prototype.success = function () { return "Successful"; };
-    return ParmService;
-}());
-ParmService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
-    __metadata("design:paramtypes", [])
-], ParmService);
-
-//# sourceMappingURL=parm.service.js.map
-
-/***/ }),
-
-/***/ 89:
+/***/ 88:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -962,19 +946,19 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 89;
+webpackEmptyContext.id = 88;
 
 
 /***/ }),
 
-/***/ 90:
+/***/ 89:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(115);
 
 
