@@ -7,8 +7,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="xyicon.ico">
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
-<link href="styles.85031b053c27deb0a0f8.bundle.css" rel="stylesheet"/></head>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/7.2.0/lazyload.transpiled.min.js"></script> 
+<link href="styles.0ea5a237576b40b8badd.bundle.css" rel="stylesheet"/></head>
 <body>
 
   <app-root>
@@ -20,6 +22,26 @@
 	        <li></li><li></li><li></li><li></li><li></li>
 	    </ul>
 	</div>
+
+
+	<!-- <img src="./assets/images/bg/HeroBG.jpg" alt="" class="preimg"> -->
+	<img class="lazy preimg" data-original="./assets/images/bg/HeroBG.jpg" width="640" height="480">
+
   </app-root>  
-<script type="text/javascript" src="inline.8d196d98a99a750350ba.bundle.js"></script><script type="text/javascript" src="polyfills.2024f3f29aec2a67603a.bundle.js"></script><script type="text/javascript" src="scripts.06369aa968d7347322c3.bundle.js"></script><script type="text/javascript" src="vendor.3e09d3135b425dfe8b76.bundle.js"></script><script type="text/javascript" src="main.d60724080cf25ebf9324.bundle.js"></script></body>
+
+
+  <script>
+  	$(function() {
+	    $("img.lazy").lazyload({
+	        event : "sporty"
+	    });
+	});
+
+	$(window).bind("load", function() {
+	    var timeout = setTimeout(function() {
+	        $("img.lazy").trigger("sporty")
+	    }, 1000);
+	});
+  </script>
+<script type="text/javascript" src="inline.66dde28a5b0202253305.bundle.js"></script><script type="text/javascript" src="polyfills.2024f3f29aec2a67603a.bundle.js"></script><script type="text/javascript" src="scripts.06369aa968d7347322c3.bundle.js"></script><script type="text/javascript" src="vendor.3e09d3135b425dfe8b76.bundle.js"></script><script type="text/javascript" src="main.2a54ef04c3eb389383d3.bundle.js"></script></body>
 </html>
